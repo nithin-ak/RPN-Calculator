@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * A driver class to run test cases
  */
