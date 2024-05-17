@@ -23,10 +23,15 @@ Advantages of RPN calculators include:
 While RPN calculators may initially seem unfamiliar to those accustomed to infix notation, they often become preferred for their efficiency and simplicity once users become accustomed to their unique input style.
 
 ## Usage
-All files to be placed in the 'src' folder of your java project.
+All files to be placed in the `src` folder of your java project.
 
-The Driver.Java file includes test cases showing how to use the code.
+The `Driver.Java` file includes test cases showing how to use the code.
+
+**Example:**
+```java
+System.out.println(rpnCalculator.evaluate("( 2 + 1 ) * 3"));
+```
 
 The code is innately left associativity.
 
-To change the associativity from left to right, change <= 0 to == -1 on line 72 in the ShuntingYard.java file.
+To change the associativity from left to right, change `<= 0` to `== -1` on line 72 in the `ShuntingYard.java` file.
